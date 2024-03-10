@@ -1,0 +1,7 @@
+C:\Users\sankalpm\source\repos\Assigement2\Assigement2\bin\Debug\Assigement2.exe.config
+C:\Users\sankalpm\source\repos\Assigement2\Assigement2\bin\Debug\Assigement2.exe
+C:\Users\sankalpm\source\repos\Assigement2\Assigement2\bin\Debug\Assigement2.pdb
+C:\Users\sankalpm\source\repos\Assigement2\Assigement2\obj\Debug\Assigement2.csproj.AssemblyReference.cache
+C:\Users\sankalpm\source\repos\Assigement2\Assigement2\obj\Debug\Assigement2.csproj.CoreCompileInputs.cache
+C:\Users\sankalpm\source\repos\Assigement2\Assigement2\obj\Debug\Assigement2.exe
+C:\Users\sankalpm\source\repos\Assigement2\Assigement2\obj\Debug\Assigement2.pdb

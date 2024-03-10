@@ -1,0 +1,7 @@
+C:\Users\sankalpm\source\repos\assessment\assessment\bin\Debug\assessment.exe.config
+C:\Users\sankalpm\source\repos\assessment\assessment\bin\Debug\assessment.exe
+C:\Users\sankalpm\source\repos\assessment\assessment\bin\Debug\assessment.pdb
+C:\Users\sankalpm\source\repos\assessment\assessment\obj\Debug\assessment.csproj.AssemblyReference.cache
+C:\Users\sankalpm\source\repos\assessment\assessment\obj\Debug\assessment.csproj.CoreCompileInputs.cache
+C:\Users\sankalpm\source\repos\assessment\assessment\obj\Debug\assessment.exe
+C:\Users\sankalpm\source\repos\assessment\assessment\obj\Debug\assessment.pdb
