@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assessment3.Calculator</StartupObject>
+    <StartupObject>Assessment3.FileHandle</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

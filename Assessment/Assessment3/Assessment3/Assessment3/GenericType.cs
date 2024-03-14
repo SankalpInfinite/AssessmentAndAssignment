@@ -38,14 +38,14 @@ namespace Assessment3
                 Console.WriteLine($"Employee ID: {emp.EmployeeID}, Name: {emp.FirstName} {emp.LastName}, Title: {emp.Title}, DOB: {emp.DOB.ToShortDateString()}, DOJ: {emp.DOJ.ToShortDateString()}, City: {emp.City}");
             }
 
-            Console.WriteLine("\nb. Details of employees not in Mumbai:");
+            Console.WriteLine(" Details of employees not in Mumbai:");
             var nonMumbaiEmployees = empList.Where(emp => emp.City != "Mumbai");
             foreach (var emp in nonMumbaiEmployees)
             {
                 Console.WriteLine($"Employee ID: {emp.EmployeeID}, Name: {emp.FirstName} {emp.LastName}, City: {emp.City}");
             }
 
-            Console.WriteLine("\nc. Details of employees with title 'AsstManager':");
+            Console.WriteLine("Details of employees with title 'AsstManager':");
             var asstManagers = empList.Where(emp => emp.Title == "AsstManager");
             foreach (var emp in asstManagers)
             {
@@ -58,6 +58,7 @@ namespace Assessment3
             {
                 Console.WriteLine($"Employee ID: {emp.EmployeeID}, Name: {emp.FirstName} {emp.LastName}");
             }
+            Console.ReadKey();
         }
     }
 }
