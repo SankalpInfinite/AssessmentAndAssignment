@@ -52,7 +52,7 @@ namespace Assessment3
                 Console.WriteLine($"Employee ID: {emp.EmployeeID}, Name: {emp.FirstName} {emp.LastName}, Title: {emp.Title}");
             }
 
-            Console.WriteLine("\nd. Details of employees whose last name starts with 'S':");
+            Console.WriteLine("Details of employees whose last name starts with 'S':");
             var lastNameStartsWithS = empList.Where(emp => emp.LastName.StartsWith("S"));
             foreach (var emp in lastNameStartsWithS)
             {
