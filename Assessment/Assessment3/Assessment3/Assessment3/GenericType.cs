@@ -39,7 +39,7 @@ namespace Assessment3
             }
 
             Console.WriteLine(" Details of employees not in Mumbai:");
-            var nonMumbaiEmployees = empList.Where(emp => emp.City != "Mumbai");
+            var nonMumbaiEmployees = empList.Select(emp => emp.City != "Mumbai");
             foreach (var emp in nonMumbaiEmployees)
             {
                 Console.WriteLine($"Employee ID: {emp.EmployeeID}, Name: {emp.FirstName} {emp.LastName}, City: {emp.City}");
