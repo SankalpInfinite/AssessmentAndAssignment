@@ -47,7 +47,7 @@ select ename,sal,comm from emp where comm>sal*1.1
 select * from emp where ename like '%L%L%' and deptno=30 or mgr_id=7782
 
 ----16. Display the names of employees with experience of over 30 years and under 40 yrs. Count the total number of employees. 
-
+select ename,DATEDIFF(year,hiredate,getdate()) as ds from emp where( select DATEDIFF(year,HireDate,getdate())) between 30 and 39
 
 
 ----17. Retrieve the names of departments in ascending order and their employees in descending order.
@@ -55,3 +55,4 @@ select * from emp where ename like '%L%L%' and deptno=30 or mgr_id=7782
 
  ----18. Find out experience of MILLER. 
  select ename,datediff(year,hiredate,getdate()) as Experience from emp where ename='MILLER'
+
