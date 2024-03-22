@@ -75,8 +75,19 @@ values
 select Gen as Gender,COUNT(*) as Total from StudentDetails where Gen is not null group by Gen
 
 -----question 4
---table orders
-create table orders(Order_ID int,Date Datetime,Customer_ID int references customers(id),Amount float)
+--table customer
+create table customer(ID int primary key,Name varchar(25),Age int,Address varchar(25),Salary float)
+
+insert into customer values
+(1,'Ramesh',32,'Ahmedabad',2000.00),
+(2,'Khilan',25,'Delhi',1500.00),
+(3,'Kaushik',23,'Kota',2000.00),
+(4,'Chaitali',25,'Mumbai',6500.00),
+(5,'Hardik',27,'Bhopal',8500.00),
+(6,'Komal',22,'MP',4500.00),
+(7,'Muffy',24,'Indore',10000.00)
+
+create table orders(Order_ID int,Date Datetime,Customer_ID int references customer(id),Amount float)
 
 insert into orders values
 (102,'2009-10-08',3,3000),
