@@ -1,20 +1,15 @@
 
 ----1.	Write a T-SQL Program to find the factorial of a given number.
-create function factorial(@num int)
-returns int
-begin
-declare @x int
+declare @num int
+set @num= 5
 declare @result int
-set @x = @num
 set @result = 1
-while @x > 1
+while @num > 1
 begin
-    set @result = @result * @x
-    set @x = @x - 1
+    set @result = @result * @num
+    set @num = @num - 1
 end
-return @result
-end
-select dbo.factorial(5) as FACTORIAL
+ select @result as factorial
 
 ----2.	Create a stored procedure to generate multiplication tables up to a given number.
 create or alter proc multiplication(@num int,@range int)
@@ -52,23 +47,33 @@ values
 
 
 select * from Holiday
+select holiday_date from holiday
+
+
+create table emp (
+    empno numeric(4) primary key,
+    ename varchar(30),
+    job varchar(20),
+    
+)
 
 
 create or alter trigger HolidayManipulationErrorTrigger
-on holiday
+on emp
 after insert, update, delete
 as
 begin
     declare @holidayMessage nvarchar(50);
     declare @errorMessage nvarchar(50); 
 
-    if exists (select 1 from holiday where holiday_date in (select holiday_date from inserted)) begin
-         select @holidayMessage = holiday_name from holiday where holiday_date in (select holiday_date from inserted);
+    if exists ( select 1 from holiday where holiday_date=getdate()) begin
+         select @holidayMessage = holiday_name from holiday where holiday_date in (select holiday_date from holiday);
          select @errorMessage = 'Due to ' +@holidayMessage+ ' You cannot manipulate data';
         rollback;
         raiserror(@errorMessage, 16, 1)
     end
 end
-update Holiday set holiday_name = 'Independence Day' where holiday_date='2024-12-25';
+insert into emp values (1243,'joy', 'IT')
+
 
 
