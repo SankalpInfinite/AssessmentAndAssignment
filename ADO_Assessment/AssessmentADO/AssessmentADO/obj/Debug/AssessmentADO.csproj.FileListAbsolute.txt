@@ -1,0 +1,7 @@
+C:\Users\sankalpm\source\repos\AssessmentADO\AssessmentADO\bin\Debug\AssessmentADO.exe.config
+C:\Users\sankalpm\source\repos\AssessmentADO\AssessmentADO\bin\Debug\AssessmentADO.exe
+C:\Users\sankalpm\source\repos\AssessmentADO\AssessmentADO\bin\Debug\AssessmentADO.pdb
+C:\Users\sankalpm\source\repos\AssessmentADO\AssessmentADO\obj\Debug\AssessmentADO.csproj.AssemblyReference.cache
+C:\Users\sankalpm\source\repos\AssessmentADO\AssessmentADO\obj\Debug\AssessmentADO.csproj.CoreCompileInputs.cache
+C:\Users\sankalpm\source\repos\AssessmentADO\AssessmentADO\obj\Debug\AssessmentADO.exe
+C:\Users\sankalpm\source\repos\AssessmentADO\AssessmentADO\obj\Debug\AssessmentADO.pdb
